@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two|Caveat|Open+Sans');
+body{
+	/* Gradient by @_ighosh at uigradients.com */
+	background: #74ebd5;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.card{
+	background: #74ebd5;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height: 75%;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #808080;
+	width: 60%;
+	margin: auto;
+	padding: 25px;
+	color: white;
+}
+h1{
+	font-size: 80px;
+	font-family: 'Shadows Into Light Two', cursive;
+	font-weight: 700;
+	color: #fffaf0;
+}
+.temp, .location{
+	font-family: 'Open Sans', sans-serif;
+}
+.temp{
+	font-size: 75px;
+}
+#img img{
+	height: 75px;
+	width: 75px;
+}
+.location{
+	font-size: 45px;
+}
+button{
+	height: 40px;
+}
+footer{
+	color: white;
+	position: absolute;
+	top: 95%;
+	width: 100%;
+	font-family: 'Caveat', cursive;
+	font-size: 25px;
+}
+footer a{
+	color: white;
+}
+footer a:hover, footer a:focus{
+	text-decoration: none;
+	color: white;
+}
+@media only screen and (max-width:615px ){
+	.location{
+		font-size: 40px;
+	}
+}
+@media only screen and (max-width: 550px)  {
+	h1{
+		font-size: 75px;
+	}
+	.temp{
+		font-size: 70px;
+	}
+}
+@media only screen and (max-width: 490px)  {
+	h1{
+		font-size: 70px;
+	}
+	.temp{
+		font-size: 65px;
+	}
+	.location{
+		font-size: 40px;
+	}
+}
+@media only screen and (max-width: 445px)  {
+	h1{
+		font-size: 65px;
+	}
+	.temp{
+		font-size: 60px;
+	}
+	.location{
+		font-size: 35px;
+	}
+}
+@media only screen and (max-width: 400px)  {
+	h1{
+		font-size: 60px;
+	}
+	.temp{
+		font-size: 55px;
+	}
+	.location{
+		font-size: 30px;
+	}
+}
